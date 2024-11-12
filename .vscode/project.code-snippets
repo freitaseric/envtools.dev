@@ -1,0 +1,20 @@
+{
+  "Shebang - (Bash)": {
+    "prefix": "shebang.bash",
+    "scope": "shellscript",
+    "body": "#! /usr/bin/bash",
+    "description": "Add a shebang for bash scripts"
+  },
+  "Shebang - (Python)": {
+    "prefix": "shebang.python",
+    "scope": "python",
+    "body": "#! /usr/bin/python",
+    "description": "Add a shebang for python scripts"
+  },
+  "Shebang - (Lua)": {
+    "prefix": "shebang.lua",
+    "scope": "lua",
+    "body": "#! /usr/bin/lua",
+    "description": "Add a shebang for lua scripts"
+  },
+}

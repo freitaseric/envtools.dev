@@ -1,0 +1,7 @@
+{
+  "[shellscript]": {
+    "files.eol": "\n",
+    "editor.defaultFormatter": "mads-hartmann.bash-ide-vscode",
+    "editor.formatOnSave": true
+  }
+}
