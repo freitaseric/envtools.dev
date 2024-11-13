@@ -1,0 +1,55 @@
+{
+  "editor.tabCompletion": "on",
+  "editor.wordSeparators": "`~!@#$%^&*()-=+[{]}\\|;:'\",.<>/?",
+  "editor.wordWrap": "on",
+  "editor.fontFamily": "'FiraCode Nerd Font', Consolas, monospace",
+  "editor.fontSize": 13,
+  "editor.fontLigatures": true,
+  "editor.tabSize": 2,
+
+  "files.autoSave": "afterDelay",
+  "files.associations": {
+    ".sequelizerc": "javascript",
+    ".stylelintrc": "json",
+    "*.tsx": "typescriptreact",
+    ".env.*": "dotenv",
+    ".prettierrc": "json"
+  },
+
+  "explorer.compactFolders": false,
+  "explorer.confirmDelete": false,
+  "explorer.confirmDragAndDrop": false,
+
+  "terminal.integrated.fontFamily": "FiraCode Nerd Font",
+  "terminal.integrated.defaultProfile.linux": "bash",
+  "terminal.integrated.fontSize": 12,
+  "terminal.external.linuxExec": "/usr/bin/fish",
+
+  "workbench.iconTheme": "helium-icon-theme",
+  "workbench.startupEditor": "readme",
+  "workbench.colorTheme": "Andromeda Bordered",
+  "workbench.productIconTheme": "icons-carbon",
+
+  "security.workspace.trust.untrustedFiles": "open",
+
+  "[json]": {
+    "editor.quickSuggestions": {
+      "strings": true
+    },
+    "editor.suggest.insertMode": "replace",
+    "editor.formatOnSave": true,
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "[jsonc]": {
+    "editor.quickSuggestions": {
+      "strings": true
+    },
+    "editor.suggest.insertMode": "replace",
+    "editor.formatOnSave": true,
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+
+  "typescript.updateImportsOnFileMove.enabled": "always",
+  "javascript.updateImportsOnFileMove.enabled": "always",
+  "makefile.configureOnOpen": false
+}
