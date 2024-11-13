@@ -34,4 +34,10 @@ echo -e "${C_AQUA}Applying fish configurations...${F_RESET}"
 for file in ./configs/fish/*.fish; do
   cp $file $HOME/.config/fish
 done
-echo -e "${C_LIME}Configurations applyed successfully!${F_RESET}"
+echo -e "${C_LIME}Configuration applyed successfully!${F_RESET}"
+
+echo -e "${C_AQUA}Changing the default shell to fish...${F_RESET}"
+chsh -s /usr/bin/fish
+echo -e "${C_LIME}Change completed successfully!${F_RESET}"
+
+echo -e "${C_LIME}All done, good bye!${F_RESET}"
