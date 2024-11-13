@@ -45,4 +45,4 @@ if command -v "zypper" >/dev/null; then
   exit 0
 fi
 
-./scripts/lib/throw.sh "InternalError" "This dotfiles does not yet support your system." "Contact the dev or make a pull request for add support for this system." 
+./scripts/libs/throw.sh "InternalError" "This dotfiles does not yet support your system." "Contact the dev or make a pull request for add support for this system." 

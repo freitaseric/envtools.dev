@@ -27,4 +27,4 @@ fi
 
 echo -e "${C_RED}${F_BOLD}${E_NAME}: ${F_RESET}${C_RED}${E_MESSAGE}${F_RESET}" >&2
 echo -e "${C_YELLOW}${E_SOLUTION}${F_RESET}" >&2
-exit 1
+exit 2
